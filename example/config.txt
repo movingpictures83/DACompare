@@ -1,0 +1,2 @@
+Prefix plugins/DACompare/example/
+Plugin DACompare inputfile parameters.txt outputfile output

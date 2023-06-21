@@ -1,0 +1,11 @@
+nclust	6
+ncomp	1
+sepFrom	-0.2
+sepTo	0.2
+sepInc	0.1
+sampFrom	10
+sampTo	210
+sampInc	100
+nRepetitions	5
+nSignals	2
+nNoise	40
