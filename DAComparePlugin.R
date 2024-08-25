@@ -93,7 +93,8 @@ for (repetition in repetitionsSeq) {
       plsda <- splsda(X, Y, ncomp = ncomp, scale = TRUE)
 
       pca <- pca(X, ncomp = ncomp)
-      
+      write.csv(X, "x.csv")
+      write.csv(Y, "y.csv")
       pfda<-pfda(X,Y,model="all",crit="cv",cv.fold=10,kernel="rbf")
    
       plda<-PenalizedLDA(as.matrix(X),Y,type="standard",K=1,lambda=0.15)
